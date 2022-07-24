@@ -1,0 +1,199 @@
+*{
+  box-sizing:border-box;
+}
+
+body {
+  margin: 1% 15% 1% 15%;
+}
+i {
+  color:black;
+  font-size: 1.5rem;
+}
+
+.rule {
+  width: 100%;
+  height: .5rem;
+  border-style: none;
+  display: flex;
+  justify-content:flex-start;
+  margin: 3% 0 3% 0;
+  background-image: url(https://raw.githubusercontent.com/codefellows/seattle-code-201d94/main/class-10/lab-a/lab-assets/hr-img.png);
+}
+
+/* Header styling */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#homepageLogo {
+  /* color: white; */
+  background-color:black; padding: 14px 14px 14px 14px; margin-right: 10px;
+  float: left;
+}
+#logoHeader {
+  width: 40%;
+  align-items: center;
+}
+
+#logoHeader h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2rem;
+  font-weight: 550;
+}
+
+#logoHeader p {
+  font-family: 'Oswald', sans-serif;
+  font-size: .66rem;
+}
+
+#socialMedia {
+  width:60%;
+}
+ 
+#socialMedia ul {
+  display:flex;
+  justify-content: flex-end;
+}
+
+
+li {
+  margin-right: .1%;
+}
+
+#pinterest {
+  margin-right: 1%;
+}
+
+
+/* Page Title */
+#contentHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+article h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+#print {
+  display:flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  color: lightgray;
+}
+
+article p {
+  color: lightgray;
+  font-size: .73rem;
+  align-self:auto;
+}
+
+
+/* Main Content*/
+#hero {
+  display:flex;
+  width: 100%;
+  margin: auto;
+}
+
+#textContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 1% 1% 1% 1%;
+}
+
+#textContent p {
+  text-indent: 2rem;
+  margin: 1% 1% 1% 1% 
+}
+
+#recipe {
+  margin: 1% 1% 1% 1%;
+  padding: 1% 1% 1% 1%;
+  width: 98%;
+  background-image: url(https://raw.githubusercontent.com/codefellows/seattle-code-201d94/main/class-10/lab-a/lab-assets/list-bg.png);
+  display: flex;
+  justify-content: space-around;    
+}
+
+#recipe ul {
+  font-family: 'Patrick Hand', cursive;
+}
+
+/* footer Content */
+#authorBio {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-end;
+  align-items:center
+}
+
+#author {
+  width: 70%;
+}
+
+#authorBio img {
+  float: left;
+  margin-right: 2%;
+}
+
+#authorBio h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 2%;
+}
+
+#authorBio P {
+  font-size: .8rem;
+  margin-top: 3%;
+}
+
+#share {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .7rem;
+  color: white;
+  background-color:#bb6f57;
+  width: 10rem;
+  height: 2rem;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+}
+
+footer img {
+  position: relative; 
+  z-index: 10;
+  display: block;
+  width: 31px;
+  margin: auto;
+}
+
+footer hr {
+  width: 100%;
+  top: .5rem;
+  position: absolute; 
+}
+
+footer p {
+  width: 30%;
+  margin: auto;
+  margin-top: 3%;
+  color: lightgray;
+}
